@@ -58,8 +58,7 @@ hudm6122-pca-manova/
 │   └── assumption_checks.rds        Mardia, Box's M, Levene, Mahalanobis.
 └── report/
     ├── final_report.pdf             Typeset write-up (17 pages).
-    ├── final_report.tex             LaTeX source.
-    └── *.png                        Figures referenced by the report.
+    └── *.png                        Figures used by the report.
 ```
 
 ---
@@ -109,10 +108,6 @@ install.packages(c(
   "knitr", "scales"
 ))
 ```
-
-To re-typeset the report PDF, `cd report/` and run `pdflatex final_report.tex` twice
-(any TeX Live installation with `amsmath`, `booktabs`, `tabularx`, `multirow`,
-`ragged2e`, `subcaption`, `natbib`, and `hyperref` will do).
 
 ---
 
